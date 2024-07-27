@@ -3,7 +3,7 @@ var gp = gsap.timeline()
 
 gp.to("#box1", {
     x : "70vw",
-    duration : 3,
+    duration : 4,
     delay : 1,
     scale : 0.7,
     rotate : "360deg",
@@ -20,7 +20,7 @@ gp.to("#box2", {
 })
 gp.to("#box3", {
     x : "70vw",
-    duration : 3,
+    duration : 2,
     scale : 0.5,
     rotate : "360deg",
     backgroundColor : "royalblue",
